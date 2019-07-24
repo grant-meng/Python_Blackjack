@@ -1,8 +1,7 @@
-def get_value(card):
-    acecount = 0
+def get_value(acecount, card):
     if "Ace" in card:
         card_value = 11
-        acecount = 1
+        acecount += 1
     elif "2" in card:
         card_value = 2
     elif  "3" in card:
